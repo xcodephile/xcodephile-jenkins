@@ -1,5 +1,5 @@
 job('JOB-02-FREESTYLE-PROJECT-02-REDIS'){
-    description('Get or set Redis key.')
+    description('Get or set Redis key')
 
     parameters{
         choiceParam('Action', ['Getall', 'Get', 'Set'])
